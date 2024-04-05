@@ -1,0 +1,275 @@
+/* CSS Body */
+
+body {
+    margin: 0;
+  }
+
+h1 {
+    font-family: "Roboto";
+}
+
+h2, h3, p {
+    font-family: "Lora";
+}
+
+/* CSS Header */
+
+.header {
+    align-items: center;
+    background-color: #303030; 
+    padding: 15px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+
+.nav-compte {
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    padding-left: 400px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white; 
+    padding: 0.5em 1em;
+    transition: color 0.3s ease;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+i {
+    text-decoration: none;
+    color: white; 
+    padding: 0.5em 1em;
+    transition: color 0.3s ease;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.nav-item a:hover {
+    color: #555555; 
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.nav-item i:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    padding-left: 280px;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+/* CSS Banner */
+
+.Banner {
+    background-image: url(images/Background.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+
+.Banner h1 {
+    color: #F2E8CF;
+    font-size: 64px;
+}
+
+.Banner p {
+    color: #F2E8CF;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.btn-beige {
+    text-decoration: none;
+    border-radius: 4px;
+    background-color:  #A9A390;
+    color: white;
+    padding: 15px 25px;    
+}
+
+.btn-beige:hover {
+    background-color: white;
+    color: #A9A390;
+    transform: scale(1.2);
+}
+
+/* CSS Content */
+
+.Container h2{
+    text-align: center;
+    padding-left: 150px;
+    font-size: 40px;
+}
+
+.Container {
+    margin: 50px 200px;
+    width: 900px;
+}
+
+.card-white {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 30px 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.effect {
+    transition: 0.5s;
+}
+
+.card-white:hover{
+    transform: scale(1.1);
+}
+
+.card-white img{
+    width: 300px;
+    border-radius: 4px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.btn-buy {
+    background-color: #d7c4a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+.btn-buy:hover {
+    background-color: #b09c85;
+    color: white;
+}
+
+.front-ocean {
+    position: relative;
+    cursor: pointer;
+}
+
+.back-ocean {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.front-ocean:hover .back-ocean{
+    display: block;
+    opacity: 1;
+}
+
+.front-grass {
+    position: relative;
+    cursor: pointer;
+}
+
+.back-grass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.front-grass:hover .back-grass{
+    display: block;
+    opacity: 1;
+}
+
+.front-cream {
+    position: relative;
+    cursor: pointer;
+}
+
+.back-cream {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.front-cream:hover .back-cream{
+    display: block;
+    opacity: 1;
+}
+
+/* CSS Footer */
+
+.Footer {
+    text-align: center;
+    background-color: #303030;
+    color: white;
+    letter-spacing: 70px;
+    padding: 15px;
+}
+
+.social-media-buttons{
+    padding-left: 80px;
+}
+
+.social-button {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+.social-button i {
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.social-button:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.Footer img{
+    width: 100px;
+    padding-top: 20px;
+}
+
+.Footer img:hover{
+    transform: scale(1.2);
+}
+
+/* .form-section */
+
+.form {
+    background-color: #303030;
+}
+
+  
